@@ -1,0 +1,43 @@
+.clm--center
+  td
+    text-align: center
+  
+.hr--blank
+  width: 100%
+  height: 3px
+  margin: 2rem 0  
+  
+.c-tarjeta
+  position: relative
+  &::before
+    content: ''
+    display: block
+    width: 25px
+    height: 10px
+    position: absolute
+    top: 0
+    left: 0
+
+  &--customColor
+    @extend .cajon
+    background-color: #EFFCFA
+    &:before
+      background-color: $color-curso-b
+
+.custom-marker  
+  position: relative
+  list-style: none  
+  li    
+    list-style-position: outside !important    
+    &::before
+      position: relative
+      content: ''
+      top: 7px
+      display: inline-block
+      width: 26px
+      height: 26px
+      background-image: url(../assets/componentes/check-icon.svg)
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: 50%
+      margin-right: 0.5em 
