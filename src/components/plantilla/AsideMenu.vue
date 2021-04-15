@@ -40,7 +40,7 @@ aside.aside-menu(:class="{'aside-menu--open': menuOpen}")
       
         a.aside-menu__sec-menu__item__lnk(
           v-if="secMenuItem.hasOwnProperty('download')"
-          :href="secMenuItem.download"
+          :href="obtenerLink(secMenuItem.download)"
           target="_blank"
         )
           i(:class="secMenuItem.icono")
@@ -93,14 +93,11 @@ export default {
   transition: flex 0.5s ease-in-out, width 0.5s ease-in-out
   overflow-x: hidden
   z-index: 100001
-
   a
     color: $color-sistema-a
-
   &--open
     flex: 0 0 300px
     width: 300px
-
   &__content
     width: 300px
     display: flex
@@ -108,35 +105,28 @@ export default {
     justify-content: space-between
     min-height: calc(100vh - 70px)
     max-height: calc(100vh - 70px)
-
     @media (max-height: 800px)
       min-height: 800px
       max-height: 800px
       overflow-y: auto
-
-
   &__header
     padding: 10px
     text-align: center
     background-color: $color-sistema-e
     div
       margin: 0
-
   &__menu
     overflow-y: auto
     flex-grow: 1
     list-style: none
     padding-left: 0
-
     &__item
       &--active
         .aside-menu__menu__item__lnk
           background-color: $color-sistema-e
           font-weight: $base-bold-font-weight
-
       &:hover
         background-color: $color-sistema-e
-
       &--sub-menu
         @extend .aside-menu__menu__item
         padding-left: 10px
@@ -155,28 +145,22 @@ export default {
               width: 4px
               border-radius: 2px
               background-color: $color-curso-b
-
       &__lnk
         display: flex
         align-items: center
         padding: 10px 15px
         line-height: 1.1em
-
-
         span, i
           margin-right: 10px
           &:last-child
             margin-right: 0
-
   &__sec-menu
     background-color: $color-sistema-e
     padding: 10px 0
     flex-shrink: 0
-
     &__item
       @extend .aside-menu__menu__item
       padding: 10px 15px
-
       &__lnk
         @extend .aside-menu__menu__item__lnk
         padding: 0
@@ -191,14 +175,10 @@ export default {
           border-radius: 50%
         &:hover
           background-color: $white
-
-
-
   @media (max-width: $bp-max-sm)
     position: fixed
     top: 70px
     // width: 300px
-
     &__content
       // min-height: 100vh
       // max-height: 100vh
