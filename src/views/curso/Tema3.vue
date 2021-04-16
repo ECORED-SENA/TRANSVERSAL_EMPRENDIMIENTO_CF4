@@ -101,15 +101,13 @@
     .row.mb-4
       .col-auto.mb-4.mb-lg-0
         .figure
-          img(src='@/assets/tema_3/info_3_3_01.svg', alt='Punto de equilibrio', style="width:350px")
-      .col-auto
+          img(src='@/assets/tema_3/info_3_3_01.svg', alt='Punto de equilibrio', style="width:350px")      
+
+    p.mb-3 De dónde:
+    .col-auto.mb-3
         .figure
           img(src='@/assets/tema_3/info_3_3_02.svg', alt='Punto de equilibrio', style="width:350px")
-
-    p.mb-5 De dónde:
-      br
-      br 
-      | #[strong ET =] Egresos totales
+    p #[strong ET =] Egresos totales
       br
       | #[strong IT =] Ingresos totales
 
@@ -227,7 +225,7 @@
     .hr--blank
 
     .titulo-segundo
-      #t_3_4.h4 3.4 Tasa Interna de Retorno (TIR)
+      #t_3_4.h4 3.4 Tasa interna de retorno (TIR)
 
     p.mb-4 La tasa interna de retorno se encarga de evaluar la rentabilidad de un proyecto de acuerdo a los flujos de caja para compararla con el costo de capital, es decir, al costo de financiación del proyecto. 
 

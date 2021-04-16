@@ -12,7 +12,7 @@
 
     .row.justify-content-around.align-items-center.mb-4
       .col-12.col-lg-6.order-last.order-lg-first
-        p Los Estados financieros, son importantes para determinar los indicadores financieros, cuando se está realizando la evaluación financiera del proyecto. Los estados financieros más relevantes para el inicio de la empresa son:  #[strong el estado de flujo de caja o efectivo y el balance inicial].
+        p Los estados financieros, son importantes para determinar los indicadores financieros, cuando se está realizando la evaluación financiera del proyecto. Los estados financieros más relevantes para el inicio de la empresa son:  #[strong el estado de flujo de caja o efectivo y el balance inicial].
       .col-auto.order-first.order-lg-last.mb-4.mb-lg-0
         .figure
           img(src='@/assets/tema_2/img_2_01.svg', alt='Estructuración de costos')   
