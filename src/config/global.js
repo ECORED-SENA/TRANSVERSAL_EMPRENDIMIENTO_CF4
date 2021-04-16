@@ -83,19 +83,19 @@ export const menuPrincipal = {
         {
           icono: 'far fa-file-alt',
           numero: '3.2',
-          titulo: 'Tasa Interna de Oportunidad (TIO)',
+          titulo: 'Tasa interna de oportunidad (TIO)',
           hash: 't_3_2',
         },
         {
           icono: 'far fa-file-alt',
           numero: '3.3',
-          titulo: 'Valor Actual Neto (VAN) o Valor Presente Neto (VPN)',
+          titulo: 'Valor actual neto (VAN) o valor presente neto (VPN)',
           hash: 't_3_3',
         },
         {
           icono: 'far fa-file-alt',
           numero: '3.4',
-          titulo: 'Tasa Interna de retorno (TIR)',
+          titulo: 'Tasa interna de retorno (TIR)',
           hash: 't_3_4',
         },
       ],

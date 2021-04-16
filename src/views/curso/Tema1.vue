@@ -23,7 +23,7 @@
     p.mb-5 En el proceso de producción de un bien, la empresa incurre en unos egresos o gastos, que se denominan costos de producción o costos de operación, estos son necesarios para mantener un proyecto, línea de procesamiento o un equipo en funcionamiento. Algunos de estos son:
 
     .c-tarjeta--customColor.p-4.mb-5
-      .h5 Costos y Gastos de Fabricación: 
+      .h5 Costos y gastos de fabricación: 
       p Aquí se encuentran todos los elementos que hacen parte en el proceso de producción, como: la materia prima o materiales (directos e indirectos), la mano de obra directa e indirecta, la depreciación de los equipos, los servicios públicos y todo lo que tiene que ver con el proceso de producción de un bien.
 
     .row.justify-content-center.align-items-center.mb-5.mb-md-0
@@ -33,7 +33,7 @@
       .col
         p #[strong La materia prima o materiales directos:] 
           br
-          | Son todos los elementos que intervienen para la realización de un producto y hacen parte de él cuando esté terminado; además, representan el principal costo en la elaboración del producto. Ejemplo: La madera para fabricar sillas.
+          | Son todos los elementos que intervienen para la realización de un producto y hacen parte de él cuando esté terminado; además, representan el principal costo en la elaboración del producto. Ejemplo: la madera para fabricar sillas.
 
     .row.justify-content-center.align-items-center.mb-5.mb-md-0
       .col-auto
@@ -42,7 +42,7 @@
       .col
         p #[strong Los materiales indirectos:] 
           br
-          | Son elementos necesarios y utilizados en la elaboración de un producto, pero no están físicamente incorporados a éste. Ejemplo: El pegante utilizado en la fabricación de las sillas.
+          | Son elementos necesarios y utilizados en la elaboración de un producto, pero no están físicamente incorporados a éste. Ejemplo: el pegante utilizado en la fabricación de las sillas.
 
     .row.justify-content-center.align-items-center.mb-5.mb-md-0
       .col-auto
@@ -51,9 +51,9 @@
       .col
         p #[strong Mano de obra directa: ] 
           br
-          | Es la que realiza el proceso de transformación de la materia prima o materiales directos, en un producto terminado; en otras palabras, realiza el trabajo físico en la elaboración del producto. Ejemplo: Corta la madera en partes, pega y pinta la silla, etc.
+          | Es la que realiza el proceso de transformación de la materia prima o materiales directos, en un producto terminado; en otras palabras, realiza el trabajo físico en la elaboración del producto. Ejemplo: corta la madera en partes, pega y pinta la silla, etc.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5.mb-md-0
       .col-auto
         .figure
           img(src='@/assets/tema_1/img_1_1_04.svg', alt='Mano de obra indirecta')
@@ -62,17 +62,26 @@
           br
           | No es la que realiza el proceso de transformación de la materia prima en el producto de forma directa, pero sirve de apoyo a la producción, esta puede ser el salario que se paga a los supervisores, vigilantes, secretarias, asistentes administrativos, personal de mantenimiento, entre otros.
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-auto
+        .figure
+          img(src='@/assets/tema_1/img_1_1_05.svg', alt='Mano de obra indirecta')
+      .col
+        p #[strong Otros gastos de fabricación:] 
+          br
+          | Hacen referencia a útiles de aseo,papelería de oficina, combustible, lubricantes, repuestos, accesorios,agua, energía, alquileres, seguros, impuestos, depreciación,mantenimiento, y otros.
+
     .c-tarjeta--customColor.p-4.mb-5
-      .h5 Gastos de Venta: 
+      .h5 Gastos de venta: 
       p Se dan cuando la empresa decide vender sus productos y cuando hace promoción de ventas. Ejemplo: salarios y comisiones del personal y ejecutivos de ventas, publicidad, propaganda, entrega de mercancía, transporte, gastos de viajes, entre otros.
 
     .c-tarjeta--customColor.p-4.mb-5
-      .h5 Gastos de Administración:  
-      p Son en los que incurre la empresa para realizar la actividad administrativa, no están directamente ligados al proceso productivo. Ejemplo: Los salarios del personal administrativo, honorario, depreciación, pagos por alquiler, servicios públicos, gastos de aseo, papelería, artículos de escritorio de la parte administrativa, seguros, impuestos, mantenimiento, etc.
+      .h5 Gastos de administración:  
+      p Son en los que incurre la empresa para realizar la actividad administrativa, no están directamente ligados al proceso productivo. Ejemplo: los salarios del personal administrativo, honorarios, depreciación, pagos por alquiler, servicios públicos, gastos de aseo, papelería, artículos de escritorio de la parte administrativa, seguros, impuestos, mantenimiento, etc.
 
     .c-tarjeta--customColor.p-4.mb-5
-      .h5 Gastos Financieros: 
-      p Cuando una empresa inicia sus labores, en ocasiones lo hace con dineros de préstamos por terceros o bancarios, estos generan unos intereses sobre la deuda que se ha adquirido, lo que se considera como gastos financieros. También existe las comisiones, que se cancelan cuando se formaliza un préstamo o algunos servicios bancarios que tienen que ver con el financiamiento de la empresa.
+      .h5 Gastos financieros: 
+      p Cuando una empresa inicia sus labores, en ocasiones lo hace con dineros de préstamos de terceros o bancarios, estos generan unos intereses sobre la deuda que se ha adquirido, lo que se considera como gastos financieros. También existen las comisiones, que se cancelan cuando se formaliza un préstamo o algunos servicios bancarios que tienen que ver con el financiamiento de la empresa.
 
     .hr--blank
 
@@ -90,12 +99,12 @@
           img(src="@/assets/tema_1/img_1_2_01.svg", alt="Gastos fijos", style="width:100%;")
       .col-12.col-lg
         .h5 Gastos fijos:
-        p Como su nombre lo determina, siempre se paga por ellos, estos establecen el funcionamiento de la empresa y son independientes del volumen de producción. Ejemplo: Nómina, seguros, servicios públicos, arriendos, etc.
+        p Como su nombre lo determina, siempre se paga por ellos, estos establecen el funcionamiento de la empresa y son independientes del volumen de producción. Ejemplo: nómina, seguros, servicios públicos, arriendos, etc.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg.mb-4.mb-lg-0.order-last.order-lg-first
         .h5 Gastos variables:
-        p Teniendo en cuenta la producción y sus niveles, además de las ventas; los gastos por estos conceptos pueden variar de la siguiente manera: a más producción y venta, mayores gastos; a menor producción y venta, menor es el gasto. Ejemplo: Los insumos, materia prima, mano de obra directa, costos de los bienes vendidos, comisiones de ventas, gastos de envío, los salarios y el número de empleados temporales o de media jornada, así como las bonificaciones a los empleados, entre otros.
+        p Teniendo en cuenta la producción y sus niveles, además de las ventas; los gastos por estos conceptos pueden variar de la siguiente manera: a más producción y venta, mayores gastos; a menor producción y venta, menor es el gasto. Ejemplo: los insumos, materia prima, mano de obra directa, costos de los bienes vendidos, comisiones de ventas, gastos de envío, los salarios y el número de empleados temporales o de media jornada, así como las bonificaciones a los empleados, entre otros.
       .col-auto.order-first.order-lg-last.mb-4
         figure
           img(src="@/assets/tema_1/img_1_2_02.svg", alt="Gastos fijos", style="width:100%;") 
@@ -134,7 +143,7 @@
             td
             td
 
-    p.mb-5 Cuando se ha determinado el total de los costos fijos y costos variables, se puede establecer los costos totales de producción, usando la siguiente formula:
+    p.mb-5 Cuando se ha determinado el total de los costos fijos y costos variables, se puede establecer los costos totales de producción, usando la siguiente fórmula:
 
     .row.mb-5
       .col-auto
@@ -150,7 +159,7 @@
             br
             | #[strong CV] = Costos Variables
     
-    p.mb-5 Teniendo el dato del Costo Total, el fabricante, puede determinar cuánto le cuesta producir una unidad, es decir el Costo Unitario, aplicando la siguiente formula.
+    p.mb-5 Teniendo el dato del costo total, el fabricante, puede determinar cuánto le cuesta producir una unidad, es decir el costo unitario, aplicando la siguiente fórmula.
 
     .row.mb-5
       .col-auto

@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         .h3 2
-      .h3 Estados Financieros
+      .h3 Estados financieros
 
     p.mb-4 Muestran las proyecciones financieras del proyecto, y se elaboran para la vida útil estimada. Exponen el proceder que tendrá la empresa en el futuro en lo referido a las necesidades de fondos, el comportamiento de los costos, los gastos e ingresos, los impactos de los costos financieros, el comportamiento de las utilidades, la producción de efectivo y la utilidad de dividendos.
 
@@ -20,7 +20,7 @@
     .hr--blank
 
     .titulo-segundo
-      #t_2_1.h4 2.1 Flujo de Caja o efectivo 
+      #t_2_1.h4 2.1 Flujo de caja o efectivo
 
     p.mb-4 Toda empresa ofrece productos o servicios dirigidos hacia un cliente particular, quienes para satisfacer sus necesidades pagan una cantidad de dinero determinada, la cual es conocida como ingreso. Estos, son requisitos necesarios para continuar con el negocio, ya que determinarán la satisfacción de sus socios y la estabilidad de los colaboradores de la empresa. Por otro lado, si los ingresos de la empresa son muy altos, pero el costo de sostenimiento mayor que los ingresos, no se estaría asegurando la permanencia del negocio en el mercado.
       br
@@ -44,7 +44,7 @@
           li.mb-3 Fujo de tesorería.
         p La principal característica del estado financiero es que refleja el movimiento de efectivo de un proyecto, o de una empresa en un momento determinado, y debe indicar la situación del mismo al final del periodo estudiado.
 
-    p.mb-5 De  acuerdo  con  el  libro  Finanzas Corporativas:  El  flujo  de  efectivo se 	puede 	construir	 para	 periodos anteriores 	al	 momento 	presente, como para periodos posteriores al momento presente; en el primer caso, será un estado de flujos de efectivo histórico, y en el segundo caso, un estado de flujo de efectivo presupuestado.
+    p.mb-5 De  acuerdo  con  el  libro  Finanzas Corporativas:  el  flujo  de  efectivo se 	puede 	construir	 para	 periodos anteriores 	al	 momento 	presente, como para periodos posteriores al momento presente; en el primer caso, será un estado de flujos de efectivo histórico, y en el segundo caso, un estado de flujo de efectivo presupuestado.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-9
@@ -60,7 +60,7 @@
     p.mb-5 El flujo de efectivo en su concepción es dinámico, y muchos autores lo representan por la diferencia entre las entradas y salidas de dinero durante un periodo determinado. Por lo general, los ingresos son representados por el signo (+) y los egresos por el signo (-).
       br
       br
-      | En las finanzas de hoy en día el concepto de valor es comprendido como la capacidad económica de una empresa o proyecto para generar efectivo. Lo anterior es comprensible a través del cálculo y observación de los movimientos, donde los inversores lo tienen como pieza clave para tomar decisiones, como fuente relevante que componen los indicadores de Valor Presente Neto o Costo Anual Equivalente.
+      | En las finanzas de hoy en día el concepto de valor es comprendido como la capacidad económica de una empresa o proyecto para generar efectivo. Lo anterior es comprensible a través del cálculo y observación de los movimientos, donde los inversores lo tienen como pieza clave para tomar decisiones, como fuente relevante que componen los indicadores de valor presente neto o costo anual equivalente.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-9
@@ -73,7 +73,7 @@
       li.mb-3 #[strong El flujo neto del periodo:] es el resultado de la diferencia entre las entradas y salidas de efectivo durante el periodo.
       li.mb-3 #[strong Saldo final de efectivo:] es el resultado de sumar el saldo inicial de efectivo y el flujo neto del periodo.
     
-    p.mb-5 La construcción del estado de flujo de efectivo proyectado hace parte de la etapa de presupuesto. Se obtiene a través de otras variables determinadas en el estudio de mercado y el estudio técnico, como son: Niveles de ventas que condicionan el nivel de producción, precios, costos de producción, inversiones futuras, gastos operacionales, entre otras. En este estado financiero se puede determinar:
+    p.mb-5 La construcción del estado de flujo de efectivo proyectado hace parte de la etapa de presupuesto. Se obtiene a través de otras variables determinadas en el estudio de mercado y el estudio técnico, como son: niveles de ventas que condicionan el nivel de producción, precios, costos de producción, inversiones futuras, gastos operacionales, entre otras. En este estado financiero se puede determinar:
 
     ul.custom-marker.mb-5
       li.mb-3 Las fuentes de efectivo de la empresa y cómo se planea utilizarlas.
@@ -86,13 +86,13 @@
     p.mb-5 Para elaborar un estado de flujo de efectivo proyectado se necesita:
 
     ul.custom-marker.mb-5
-      li.mb-3 Un balance general del periodo anterior. Si no existe, se debe elaborar una de iniciación.
-      li.mb-3 Un estado de resultados proyectado y las bases de su proyección (presupuesto de ventas, de costos y etc.)
+      li.mb-3 balance general del periodo anterior. Si no existe, se debe elaborar uno de iniciación.
+      li.mb-3 Estado de resultados proyectado y las bases de su proyección (presupuesto de ventas, de costos y etc.)
       li.mb-3 Políticas respecto a los posibles cambios que puede tener el balance general.
       li.mb-3 Todas las demás políticas que pueda tener la empresa y que incidan en los movimientos de efectivo.
 
     .h5 Formas de presentar el flujo de efectivo proyectado
-    p.mb-4 El estado de efectivo se puede presentar de manera simplificada, el cual no se organiza con una estructura compleja las entradas y salidas de efectivo, Ejemplo:
+    p.mb-4 El estado de efectivo se puede presentar de manera simplificada, el cual no se organiza con una estructura compleja las entradas y salidas de efectivo, ejemplo:
 
     figure.mb-5
       img(src="@/assets/tema_2/flujo.svg", alt="Flujo de caja", style="width:100%;")             

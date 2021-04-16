@@ -81,7 +81,7 @@
     .hr--blank
 
     .titulo-segundo
-      #t_3_3.h4 3.3 Valor Actual Neto (VAN) o Valor Presente Neto (VPN)
+      #t_3_3.h4 3.3 Valor actual neto (VAN) o valor presente neto (VPN)
 
     p.mb-5 El uso de dinero en el tiempo no puede ser gratuito, se debe reconocer una cantidad que sea proporcional a la posible pérdida que se asume, o el pago de un canon por la utilización del dinero, a este valor se le llama interés. Para mayor comprensión se tomará un ejemplo del libro Matemáticas financieras aplicadas, de Jhonny de Jesús Meza: “Si se presta hoy una cantidad de dinero (P) y después de un tiempo determinado se recibe una cantidad mayor (F), la variación del valor del dinero de P a F, se llama valor de dinero en el tiempo, y la diferencia entre F y P es el interés. La operación se representa mediante la siguiente expresión:
 
@@ -96,7 +96,7 @@
           br
           | Debe tomarse en cuenta que la tasa de actualización debe ser igual a la tasa de interés pagada por el prestatario y refleja el costo de oportunidad del capital.
 
-    p.mb-5 Para determinar el VAN se utiliza el Flujos de Fondos de la empresa. La fórmula que se emplea para el cálculo del VAN es la siguiente:
+    p.mb-5 Para determinar el VAN se utiliza el Flujos de fondos de la empresa. La fórmula que se emplea para el cálculo del VAN es la siguiente:
 
     .row.mb-4
       .col-auto.mb-4.mb-lg-0
