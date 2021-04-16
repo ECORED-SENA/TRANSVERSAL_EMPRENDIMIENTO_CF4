@@ -39,7 +39,7 @@
     .hr--blank
 
     .titulo-segundo
-      #t_3_2.h4 3.2 Tasa Interna de Oportunidad (TIO)
+      #t_3_2.h4 3.2 Tasa interna de oportunidad (TIO)
 
     p.mb-4 El uso de dinero en el tiempo no puede ser gratuito, se debe reconocer una cantidad que sea proporcional a la posible pérdida que se asume, o el pago de un canon por la utilización del dinero, a este valor se le llama interés. Para mayor comprensión se tomará un ejemplo del libro Matemáticas financieras aplicadas, de Jhonny de Jesús Meza: “Si se presta hoy una cantidad de dinero (P) y después de un tiempo determinado se recibe una cantidad mayor (F), la variación del valor del dinero de P a F, se llama valor de dinero en el tiempo, y la diferencia entre F y P es el interés. La operación se representa mediante la siguiente expresión:
 
